@@ -1,0 +1,22 @@
+{
+  "name": "Tidewise — stop drinking, ride the wave",
+  "short_name": "Tidewise",
+  "description": "A private, evidence-based companion for people who want to stop drinking alcohol.",
+  "start_url": "./#/",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f3ee",
+  "theme_color": "#0e6f78",
+  "categories": ["health", "medical", "lifestyle"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ],
+  "shortcuts": [
+    { "name": "Ride the wave (SOS)", "short_name": "SOS", "url": "./#/sos", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Daily check-in", "short_name": "Check-in", "url": "./#/checkin" }
+  ]
+}
